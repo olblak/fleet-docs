@@ -676,7 +676,7 @@ ClusterList contains a list of Cluster
 | ----- | ----------- | ------ | -------- |
 | conditions |  | []genericcondition.GenericCondition | false |
 | namespace | Namespace is the cluster namespace, it contains the clusters service account as well as any bundledeployments. Example: \"cluster-fleet-local-cluster-294db1acfa77-d9ccf852678f\" | string | false |
-| summary | Summary is a summary of the bundledeployments. The resource counts are copied from the gitrepo resource. | [BundleSummary](#bundlesummary) | false |
+| summary | Summary is a summary of the bundledeployments. | [BundleSummary](#bundlesummary) | false |
 | resourceCounts | ResourceCounts is an aggregate over the GitRepoResourceCounts. | [GitRepoResourceCounts](#gitreporesourcecounts) | false |
 | readyGitRepos | ReadyGitRepos is the number of gitrepos for this cluster that are ready. | int | true |
 | desiredReadyGitRepos | DesiredReadyGitRepos is the number of gitrepos for this cluster that are desired to be ready. | int | true |
