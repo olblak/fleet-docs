@@ -11,8 +11,6 @@ title: "0.13 Changelogs"
 
 * [v0.13.7](changelogs/v0.13.7.md) 
 
-* [v0.13.6](changelogs/v0.13.6.md) 
-
 * [v0.13.5](changelogs/v0.13.5.md) 
 
 * [v0.13.4](changelogs/v0.13.4.md) 
